@@ -4,7 +4,7 @@ from aniso8601.timezone import UTCOffset, build_utcoffset
 from flask_ask.core import Ask
 
 from datetime import datetime, timedelta
-from mock import patch, MagicMock
+from unittest.mock import patch, MagicMock
 import json
 
 

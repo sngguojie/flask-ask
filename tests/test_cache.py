@@ -1,5 +1,5 @@
 import unittest
-from mock import patch, Mock
+from unittest.mock import patch, Mock
 from cachelib.simple import SimpleCache
 from flask_ask.core import Ask
 from flask_ask.cache import push_stream, pop_stream, top_stream, set_stream
