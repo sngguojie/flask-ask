@@ -815,7 +815,7 @@ class Ask(object):
 
         if result is not None:
             if isinstance(result, models._Response):
-                return result.render_response()
+                return result.render_response(), 200, { "Content-Type": "application/json" }
             return result
         return "", 400
 
